@@ -9,7 +9,7 @@ To configure the project with API keys and other environment-specific variables,
 ## 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/your-project.git
+git clone https://github.com/ahmedhesham2000/ChatGpt-Clone.git
 cd your-project
 ```
 
