@@ -11,8 +11,8 @@ import 'package:flutter_dotenv/flutter_dotenv.dart';
 
 void main()async {
   WidgetsFlutterBinding.ensureInitialized();
-  await dotenv.load(fileName: ".env");
-  apiKey=dotenv.env['CHATGPT_API_KEY']!;
+  // await dotenv.load(fileName: ".env");
+  // apiKey=dotenv.env['CHATGPT_API_KEY']!;
   await DioHelper.init();
   await CacheHelper.init();
   Bloc.observer = MyBlocObserver();
